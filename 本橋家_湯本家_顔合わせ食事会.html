@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>本橋家・湯本家 顔合わせ食事会</title>
+<style>
+  :root{
+    --bg:#f7f3ee; --card:#fffdf9; --text:#3f3a35; --muted:#7c746c;
+    --accent:#9b7653; --accent2:#c8aa8b; --line:#e7ddd2;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+       line-height:1.8}
+  .hero{padding:64px 20px 54px;text-align:center;
+        background:linear-gradient(180deg,#eee5da 0%,var(--bg) 100%)}
+  .eyebrow{letter-spacing:.18em;font-size:12px;color:var(--accent);font-weight:700}
+  h1{margin:12px 0 8px;font-family:serif;font-size:clamp(30px,7vw,52px);font-weight:500;letter-spacing:.08em}
+  .subtitle{margin:0;color:var(--muted);font-size:14px}
+  main{max-width:900px;margin:-18px auto 60px;padding:0 18px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:18px;
+          padding:28px;margin-bottom:18px;box-shadow:0 6px 24px rgba(70,50,30,.05)}
+  h2{font-family:serif;font-size:23px;font-weight:500;margin:0 0 20px;
+     display:flex;align-items:center;gap:10px}
+  h2:before{content:"";width:4px;height:24px;background:var(--accent2);border-radius:4px}
+  .info{display:grid;grid-template-columns:120px 1fr;gap:10px 18px}
+  .label{color:var(--muted);font-size:14px}
+  .value{font-weight:600}
+  .value a{color:var(--accent);text-decoration:none}
+  .note{font-size:13px;color:var(--muted);margin-top:4px}
+  .timeline{display:grid;gap:0}
+  .step{display:grid;grid-template-columns:45px 1fr;position:relative;padding-bottom:18px}
+  .step:not(:last-child):after{content:"";position:absolute;left:21px;top:42px;width:1px;height:calc(100% - 24px);background:var(--line)}
+  .num{width:42px;height:42px;border-radius:50%;background:#eee3d7;color:var(--accent);
+       display:grid;place-items:center;font-weight:700;position:relative;z-index:1}
+  .step-title{font-weight:700;padding:8px 0 0 14px}
+  .families{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .family{border:1px solid var(--line);border-radius:14px;padding:20px}
+  .family h3{margin:0 0 14px;font-family:serif;font-size:21px;font-weight:500}
+  .family ul{list-style:none;padding:0;margin:0}
+  .family li{padding:8px 0;border-bottom:1px solid #eee7df}
+  .family li:last-child{border-bottom:0}
+  .role{color:var(--muted);font-size:13px;margin-right:8px}
+  .highlight{background:#f2eae1;border-radius:14px;padding:20px}
+  .highlight strong{display:block;margin-bottom:6px}
+  footer{text-align:center;color:var(--muted);font-size:12px;padding:0 20px 40px}
+  @media(max-width:650px){
+    .hero{padding:48px 18px 44px}
+    section{padding:22px}
+    .info{grid-template-columns:88px 1fr;gap:8px 12px}
+    .families{grid-template-columns:1fr}
+    h2{font-size:21px}
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="eyebrow">FAMILY MEETING · 2026</div>
+  <h1>本橋家・湯本家<br>顔合わせ食事会</h1>
+  <p class="subtitle">両家で親睦を深める、ひととき</p>
+</header>
+
+<main>
+  <section>
+    <h2>開催概要</h2>
+    <div class="info">
+      <div class="label">日時</div>
+      <div class="value">2026年9月19日（土）17:00〜</div>
+
+      <div class="label">場所</div>
+      <div class="value">
+        もみの湯（湯本ホテル）内 食事会場
+        <div><a href="https://mominoyu.com" target="_blank" rel="noopener">会場公式サイトを見る ↗</a></div>
+      </div>
+
+      <div class="label">内容</div>
+      <div class="value">2時間・飲み放題付き</div>
+
+      <div class="label">参加人数</div>
+      <div class="value">12名</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>当日の流れ</h2>
+    <div class="timeline">
+      <div class="step"><div class="num">1</div><div class="step-title">始まりの挨拶</div></div>
+      <div class="step"><div class="num">2</div><div class="step-title">家族紹介</div></div>
+      <div class="step"><div class="num">3</div><div class="step-title">乾杯</div></div>
+      <div class="step"><div class="num">4</div><div class="step-title">歓談</div></div>
+      <div class="step"><div class="num">5</div><div class="step-title">結びの挨拶</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>参加者</h2>
+    <div class="families">
+      <div class="family">
+        <h3>本橋家 <span style="font-size:14px;color:#7c746c;">3名</span></h3>
+        <ul>
+          <li><span class="role">父</span>義規（よしのり）</li>
+          <li><span class="role">母</span>和美（かずみ）</li>
+          <li><span class="role">長男</span>義也（よしなり）</li>
+        </ul>
+      </div>
+
+      <div class="family">
+        <h3>湯本家 <span style="font-size:14px;color:#7c746c;">9名</span></h3>
+        <ul>
+          <li><span class="role">父</span>光進（みつのぶ）</li>
+          <li><span class="role">母</span>江美</li>
+          <li><span class="role">長女</span>光美</li>
+          <li><span class="role">次女</span>菜々美</li>
+          <li><span class="role">三女</span>光菜（みな）</li>
+          <li><span class="role">父方祖父</span>順二</li>
+          <li><span class="role">父方祖母</span>直美</li>
+          <li><span class="role">母方祖父</span>茂作（もさく）</li>
+          <li><span class="role">母方祖母</span>美和子</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>備考</h2>
+    <div class="highlight">
+      <strong>自己紹介のご準備をお願いします</strong>
+      家族紹介の時間では、それぞれ簡単な自己紹介をお願いします。<br>
+      「名前・続柄・一言」など、短い内容で大丈夫です。
+    </div>
+  </section>
+
+
+</main>
+
+<footer>
+  本橋家・湯本家 顔合わせ食事会 ｜ 2026年9月19日
+</footer>
+</body>
+</html>
